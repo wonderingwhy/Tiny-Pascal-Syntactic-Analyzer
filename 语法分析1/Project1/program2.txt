@@ -1,0 +1,10 @@
+PROGRAM FUNC;
+CONST Pi=3;
+VAR R,S,C:INTEGER;
+BEGIN
+	READ(R);
+	S:=Pi*R*R;
+	C:=2*Pi*R;
+	WRITE(S);
+	WRITE(C);
+END.

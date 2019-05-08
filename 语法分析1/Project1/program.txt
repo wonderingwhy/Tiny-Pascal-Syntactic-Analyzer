@@ -1,0 +1,23 @@
+PROGRAM aa;
+CONST c=10,b=20;
+VAR a:INTEGER;
+PROCEDURE aa(s:LONG);
+CONST c=10;
+VAR b:LONG;
+BEGIN
+END;
+BEGIN
+	bbb:=10*9+(7*6)*8;
+	WHILE bbb > 9 DO bbb:=10*9+(7*6)*8;
+	IF bbb > 9 THEN bbb:=10*9+(7*6)*8;
+	bbb:=10*9+(7*6)*8;
+	READ (bbb,aaa);
+	BEGIN
+		bbb:=10*9+(7***6)*8;
+		WHILE bbb > 9 DO bbb:=10*9+(7*6)*8;
+		IF bbb > 9 THEN bbb:=10*9+(7*6)*8;
+		bbb:=10*9+(7*6)*8;
+		READ (bbb,aaa);
+		WRITE (ccc,(8*9));
+	END
+END.
